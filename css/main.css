@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    height: 100vh;
+}
+
+body {
+    background-color: #d5e1ef;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+
+}
+
+.content {
+    max-width: 375px;
+    width: 90%;
+    border-radius: 5%;
+    background-color: aliceblue;
+    padding-bottom: 20px;
+}
+
+img {
+    border-radius: 5%;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.text {
+    font-family: 'outfit';
+    font-size: 16px;
+    width: 75%;
+    margin-left: 55px;
+}
+
+p {
+    color: #83838b;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    
+}
+
